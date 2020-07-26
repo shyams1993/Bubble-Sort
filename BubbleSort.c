@@ -6,7 +6,7 @@ void main()
     int nums[8] = {6, 3, 8, 5, 2, 7, 4, 1};
     while (x < n)
     {
-        for (int y = 0; y < n; y++)
+        for (int y = 0; y < n-1; y++)
         {
             if (nums[y] > nums[y+1])
             {
